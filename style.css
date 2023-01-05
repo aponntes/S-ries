@@ -1,0 +1,43 @@
+header{
+  width: 100%
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+}
+li{
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+h2{
+  text-align: center;
+}
+.container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
+  font-family: monospace;
+  font-size: 15px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+button{
+  background-color: lightgreen;
+  color: black;
+  font-family: monospace;
+}
